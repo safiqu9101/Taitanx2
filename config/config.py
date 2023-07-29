@@ -30,14 +30,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001872982821"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐓αιταи ✘ 𝐌ᴜsɪᴄ")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "1362133845").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -49,7 +49,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sparrow9616/StrangerMusicBot",
+    "https://github.com/safiqu9101/StrangerMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -58,10 +58,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    ("SUPPORT_CHANNEL", "t.me/taitanxbot")
 )  # Example:- https://t.me/sparrow96160
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    ("SUPPORT_GROUP", "t.me/DOSTO_KI_PIYAR")
 )  # Example:- https://t.me/strangersupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -131,7 +131,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @string_puiibot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQCBaL96WsysbWUjV_oExLeJQpVkzJp3DCRlD3PyNlNvh9Hq0mv3Sq0bhLe42_3fDnflAPXtl4YyX8942FE5GqBIGH1EoWi1s_Um3cYVjOzGlmPyn_PmBPyoVSKPPAxiCaqSmJRml0rLBlEf5AuPHmm1z6fVxFaq5W9iXzqSeY0OXm4TTjPz6HZ5NEyMnHAyZWKOmVc2ChYNJX3pEq7aXkaDwmKQNb-eRl2P5w38KHC8Wh0MOeUDd3e4ZY4x7PIoZ1H0ETpqg-Y8u1f8n4SLK53ye51ydpLJjlzxKo9i7-TmPkyIbRKvCsJgThN4iR-zvq3bFEChr34K0jUF-a0rzjEzAAAAAWje09MA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
